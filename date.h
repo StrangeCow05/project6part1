@@ -12,7 +12,7 @@ class Date{
  public:
 	 Date();
 	 void init(std::sting dateString);
-	 void printAddress();
+	 void printDate();
 
 
 };
