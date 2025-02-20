@@ -1,0 +1,20 @@
+#ifndef DATE_H_EXISTS
+#define DATE_H_EXTSTS
+
+#include <string>
+
+class Date{
+ private: 
+	 std::string dateString;
+	 int month;
+	 int day;
+	 int year;
+ public:
+	 date();
+	 void init(std::sting dateString);
+	 void printAddress();
+
+
+};
+
+#endif

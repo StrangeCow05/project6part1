@@ -1,3 +1,6 @@
+#ifndef ADDRESS_H_EXISTS
+#define ADDRESS_H_EXISTS
+
 #include <string>
 
 class Address{
@@ -9,9 +12,9 @@ class Address{
 
         public:
                Address();
-               void init(street,town,state,zip);
+               void init(std::string street,std::string town,std::string state,std::string zip);
                void printDate();
 
 };//end Address
-~                                                                    
-~                   
+
+#endif
