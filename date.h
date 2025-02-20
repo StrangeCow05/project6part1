@@ -10,7 +10,7 @@ class Date{
 	 int day;
 	 int year;
  public:
-	 date();
+	 Date();
 	 void init(std::sting dateString);
 	 void printAddress();
 

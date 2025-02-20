@@ -13,7 +13,7 @@ class Address{
         public:
                Address();
                void init(std::string street,std::string town,std::string state,std::string zip);
-               void printDate();
+               void printAddress();
 
 };//end Address
 
