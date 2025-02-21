@@ -42,4 +42,6 @@ void Date::init (std::string dateString){
 
 }//end init
 
-void prin
+void Date::printDate(){
+
+}
