@@ -1,7 +1,7 @@
 game: address.o main.o
 	g++ -g address.o main.o -o game
 
-main.o: address.h date.h student.h main.cpp
+main.o: address.h  main.cpp
 	g++ -c -g main.cpp
 
 address.o: address.h address.cpp

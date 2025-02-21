@@ -23,4 +23,23 @@ void Date::init (std::string dateString){
 
  converter.clear();
  converter.str(dateString);
-}
+
+ getline(converter,sMonth, '/');
+ getline(converter,sDay, '/');
+ getline(converter, sYear);
+ 
+ converter.clear();
+ converter.str(sMonth);
+ converter >> Date::month;
+
+ converter.clear();
+ converter.str(sDay);
+ converter >> Date::day;
+
+ converter.clear();
+ converter.str(sYear);
+ converter >> Date::year;
+
+}//end init
+
+void prin

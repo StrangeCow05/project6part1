@@ -13,7 +13,7 @@ class Student{
 		Date* birth;
 		Date* expectedGrad;
 		Address* address;
-		int creditHours;
+	
 	public:
 	       student();
                ~student();
