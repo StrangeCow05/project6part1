@@ -4,10 +4,8 @@
 #include "date.h"
 
 Date::Date(){
- Date::dateString;
- Date::month;
- Date::day;
- Date::year;
+ Date::dateString = "";
+
 }//end constructer
 
 void Date::init (std::string dateString){
